@@ -26,8 +26,9 @@ function Login() {
                 "Access-Control-Allow-Origin": "*"
             }
         })
-        const data = await res.json()
-        console.log(data)
+        console.log(res.statusText)
+        // const data = await res.json()
+        // console.log(data)
         // store returned user in a context?
     }
 
